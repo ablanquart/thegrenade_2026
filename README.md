@@ -1,18 +1,10 @@
-# MRF101 40m AM Linear Amplifier
+# MRF101 40m AM Linear Amplifier - USB-C
 
 A bench-oriented 40-meter (7.0–7.3 MHz) AM linear amplifier built around a push-pull
 pair of NXP **MRF101AN/MRF101BN** LDMOS transistors. Designed for experimental use
 under an FCC Part 5 license and general amateur use on 40m.
 
 **10 W carrier / 40 W PEP · 50 Ω in/out · 48 V drain rail · absorptive harmonic termination**
-
-Three board variants share the same RF lineup and differ in assembly style and power input:
-
-| Variant | Board files | Power input | Notes |
-|---|---|---|---|
-| **SMT** | `mrf101_40m_pa.*` | 48 V bench supply (J3) | Original variant, surface-mount |
-| **THT** | `mrf101_40m_pa_tht.*` | 48 V bench supply (J3) | Through-hole build, optional RD06HHF1 driver |
-| **USB-PD** | `mrf101_40m_pa_usbpd.*` | USB-C PD (100 W) **or** 48 V bench | CH224K PD sink + LM5122 boost (20 V → 48 V), status LEDs, on-board harmonic dump |
 
 ## Features (USB-PD variant)
 
@@ -32,13 +24,9 @@ Three board variants share the same RF lineup and differ in assembly style and p
 ## Repository layout
 
 ```
-├── mrf101_40m_pa.*            # SMT variant  (schematic / board / project)
-├── mrf101_40m_pa_tht.*        # THT variant
-├── mrf101_40m_pa_usbpd.*      # USB-C PD variant
-├── fab/                       # Fabrication outputs, SMT variant
-├── fab_tht/                   # Fabrication outputs, THT variant
-├── fab_usbpd/                 # Fabrication outputs, USB-PD variant
+├── mrf101_40m_pa_usbpd.*      # USB-C powered amp schematics, PCB, etc.
 ├── snapshots/                 # Design checkpoints
+├── gerbers/                 # Gerber Files
 ├── docs/
 │   ├── USER_GUIDE.md          # Setup and operation
 │   └── SERVICE_MANUAL.md      # Theory of operation, component reference, test points
@@ -82,8 +70,7 @@ and keep fingers off the output network while transmitting.
 
 ## License
 
-TBD — pick one before publishing (CERN-OHL-S is a common choice for open hardware;
-MIT/BSD if you want it maximally permissive).
+CERN-OHL-S
 
 ---
-*73 de the bench.*
+
