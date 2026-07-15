@@ -1,4 +1,4 @@
-# The Grenade AM Amplifier 2026
+# The Grenade Amplifier 2026
 
 # An MRF101 based 40m AM Linear Amplifier - USB-C Powered
 
