@@ -1,4 +1,4 @@
-# MRF101 40m AM Linear Amplifier — USB-C Powered
+# The Grenade 2026 - An MRF101 40m AM Linear Amplifier — USB-C Powered - 10W Carrier - 40W PEP - SMA Connectors
 
 A bench-oriented 40-meter (7.0–7.3 MHz) AM linear amplifier built around a push-pull
 pair of NXP **MRF101AN/MRF101BN** LDMOS transistors — powered from a standard 100 W
@@ -110,4 +110,3 @@ As per CERN-OHL-S v2 section 4.1, any product you make from this design should
 carry a reference back to the source location above.
 
 ---
-*73 de the bench.*
