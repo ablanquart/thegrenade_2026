@@ -95,7 +95,7 @@ and keep fingers off the output network while transmitting.
 This project is licensed under the **CERN Open Hardware Licence Version 2 —
 Strongly Reciprocal (CERN-OHL-S v2)**. See [LICENSE](LICENSE) for the full text.
 
-Copyright © 2026 [your name / callsign]
+Copyright © 2026 Adam Blanquart
 
 This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
 You may redistribute and modify this source and make products using it under
@@ -105,7 +105,7 @@ This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING
 OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
 Please see the CERN-OHL-S v2 for applicable conditions.
 
-Source location: [your repository URL]
+Source location: https://github.com/ablanquart/thegrenade_2026/
 
 As per CERN-OHL-S v2 section 4.1, any product you make from this design should
 carry a reference back to the source location above.
